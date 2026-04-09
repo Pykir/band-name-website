@@ -24,10 +24,16 @@
                 text-transform: uppercase;
                 font-size: larger;
             }
-            #music-embeds {
+            #album-layout {
                 padding: 50px 5%;
                 display: grid;
                 grid-template-columns: 30% 30% 30%;
+            }
+            iframe {
+                box-shadow: 10px 10px rgba(0,0,0,0.3);
+            }
+            .header {
+                font-size: xx-large;
             }
         </style>
     </head>
@@ -40,11 +46,13 @@
                 <a href="music.html">Music</a>
             </div>
         </nav>
-
-        <div id="music-embeds">
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=303635167/size=large/bgcol=ffffff/linkcol=0687f5/license_id=633/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/crumbling">무너지기 (Crumbling) by 공중도둑 (Mid-Air Thief)</a></iframe>
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=4033343649/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoongdoduk">공중도덕 (Gongjoongdoduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226747455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoong-doduk">공중도덕 (Gongjoong Doduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
+        <div class="header">
+            <h1>Albums</h1>
+        </div>
+        <div id="album-layout">
+                <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=303635167/size=large/bgcol=ffffff/linkcol=0687f5/license_id=633/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/crumbling">무너지기 (Crumbling) by 공중도둑 (Mid-Air Thief)</a></iframe>
+                <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=4033343649/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoongdoduk">공중도덕 (Gongjoongdoduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
+                <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226747455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoong-doduk">공중도덕 (Gongjoong Doduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
         </div>
     </body>
 </html>

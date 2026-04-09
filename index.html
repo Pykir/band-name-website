@@ -24,11 +24,16 @@
                 text-transform: uppercase;
                 font-size: larger;
             }
-            #main-body {
+            .main-body {
                 padding: 50px 5%;
                 font-size: large;
                 display: grid;
                 grid-template-columns: 50% 50%;
+            }
+            #album-image img{
+                width: 80%;
+                border-radius: 20px;
+                box-shadow: 20px 30px rgba(0,0,0,0.3);
             }
         </style>
     </head>
@@ -42,7 +47,7 @@
             </div>
         </nav>
 
-        <div id = "main-body">
+        <div class = "main-body">
             <div>
             <h1>Mid-Air Thief (Korean: 공중도둑)</h1>
                 <p>
@@ -51,7 +56,7 @@
                 the Korean Music Awards.
                 </p>
             </div>
-            <div>
+            <div id="album-image">
                 <img src="https://s9.limitedrun.com/images/1364460/v600_208_1000_72.jpg" alt="Picture of Crumbling's album cover">
             </div>
             
