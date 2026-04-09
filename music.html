@@ -5,7 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mid-Air Thief music-page</title>
         <style>
-
+            body {
+                background-color: #547996;
+            }
+            nav {
+                background-color: black;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+            }
+            .nav-links a {
+                color: aqua;
+                margin-left: 20px;
+            }
+            .band-name {
+                color: aqua;
+                text-transform: uppercase;
+                font-size: larger;
+            }
+            .music {
+                padding: 50px 5%;
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+            }
         </style>
     </head>
     <body>
@@ -17,5 +40,11 @@
                 <a href="music.html">Music</a>
             </div>
         </nav>
+
+        <div class="music">
+            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=303635167/size=large/bgcol=ffffff/linkcol=0687f5/license_id=633/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/crumbling">무너지기 (Crumbling) by 공중도둑 (Mid-Air Thief)</a></iframe>
+            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=4033343649/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoongdoduk">공중도덕 (Gongjoongdoduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
+            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3226747455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://midairthief.bandcamp.com/album/gongjoong-doduk">공중도덕 (Gongjoong Doduk) by 공중도둑 (Mid-Air Thief)</a></iframe>
+        </div>
     </body>
 </html>
